@@ -1,0 +1,345 @@
+
+.layer-bg{
+    background-color: rgba(0, 0, 0, .6);
+
+}
+
+header{
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../imgs/bg/hero-bg.jpg);
+    background-attachment: fixed;
+}
+
+
+.header-info h2::after{
+content: "|";
+animation-name:typing;
+animation-iteration-count: infinite;
+animation-duration: 15s;
+
+}
+
+@keyframes typing{
+
+    1%{content: "|";}   
+    2%{content: "Fr|";}   
+    3%{content: "Fre|";}   
+    4%{content: "Free|";}   
+    5%{content: "Freel|";}   
+    6%{content: "Freela|";}   
+    7%{content: "Freelan|";}   
+    8%{content: "Freelanc|";}   
+    9%{content: "Freelance|";}   
+    10%{content: "Freelancer|";}   
+    11%{content: "Freelancer|";}   
+    12%{content: "Freelancer|";}   
+    13%{content: "Freelancer|";}   
+    14%{content: "Freelancer|";}   
+    18%{content: "Freelance|";}   
+    19%{content: "Freelanc|";}   
+    20%{content: "Freelan|";}   
+    21%{content: "Freela|";}   
+    22%{content: "Freel|";}   
+    23%{content: "Free|";}   
+    24%{content: "Fre|";}   
+    25%{content: "Fr|";}   
+    26%{content: "F|";}   
+    27%{content: "|";}   
+    28%{content: "P|";}   
+    29%{content: "Ph|";}   
+    30%{content: "Pho|";}   
+    31%{content: "Phot|";}   
+    32%{content: "Photo|";}   
+    33%{content: "Photog|";}   
+    34%{content: "Photogr|";}   
+    35%{content: "Photogra|";}   
+    36%{content: "Photograp|";}   
+    37%{content: "Photograph|";}   
+    38%{content: "Photographe|";}   
+    39%{content: "Photographer|";}        
+    40%{content: "Photographer|";}        
+    41%{content: "Photographer|";}        
+    42%{content: "Photographer|";}        
+    43%{content: "Photographer|";}        
+    46%{content: "Photographe|";}   
+    47%{content: "Photograph|";}   
+    48%{content: "Photograp|";}   
+    49%{content: "Photogra|";}   
+    50%{content: "Photogr|";}   
+    51%{content: "Photog|";}   
+    52%{content: "Photo|";}   
+    53%{content: "Phot|";}   
+    54%{content: "Pho|";}   
+    55%{content: "Ph|";}   
+    56%{content: "P|";}   
+    57%{content: "|";}   
+    58%{content: "D|";}   
+    59%{content: "De|";}   
+    60%{content: "Des|";}   
+    61%{content: "Desi|";}   
+    62%{content: "Desig|";}   
+    63%{content: "Design|";}   
+    64%{content: "Designe|";}   
+    65%{content: "Designer|";}     
+    66%{content: "Designer|";}     
+    67%{content: "Designer|";}     
+    68%{content: "Designer|";}     
+    69%{content: "Designer|";}     
+    71%{content: "Designe|";}   
+    72%{content: "Design|";}   
+    73%{content: "Desig|";}   
+    74%{content: "Desi|";}   
+    75%{content: "Des|";}   
+    76%{content: "De|";}   
+    77%{content: "Dev|";}   
+    78%{content: "Deve|";}   
+    79%{content: "Develo|";}   
+    80%{content: "Develop|";}   
+    81%{content: "Develope|";}   
+    82%{content: "Developer|";}   
+    83%{content: "Developer|";}   
+    84%{content: "Developer|";}   
+    85%{content: "Developer|";}   
+    86%{content: "Developer|";}   
+    89%{content: "Develope|";}   
+    90%{content: "Develop|";}   
+    91%{content: "Develo|";}   
+    92%{content: "Deve|";}   
+    93%{content: "Dev|";}   
+    94%{content: "De|";}   
+    95%{content: "D|";}   
+    100%{content: "|";}   
+  
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, .6);
+}
+
+nav .container  a:hover{
+border-bottom: #fff 0.25rem solid;
+
+}
+
+.icon{
+   
+    width: 5rem;
+    height: 5rem;
+    
+ line-height: 1.55;
+ box-shadow: 0 0 0 10px #0078ff;
+font-size: 1.5rem;
+}
+
+
+.row .col-lg-4 .icon:hover {
+        z-index: 2;
+        color: #fff;
+        background-color: #0078ff;
+        box-shadow: 0 0 0 10px #cde1f8;
+       
+}
+
+.icon-more{
+   
+    width: 4rem;
+    height: 4rem;
+ box-shadow: 0 0 0 8px #FFF;
+font-size: 1.5rem;
+}
+.icon-work{
+    width: 2rem;
+    height: 2rem;
+ 
+ box-shadow: 0 0 0 3px #0078ff;
+font-size: 1rem;
+}
+.icon-contact{
+    width: 2rem;
+    height: 2rem;
+ 
+ box-shadow: 0 0 0 3px #0078ff;
+font-size: 1rem;
+}
+.brdr{
+
+    width: 100px;
+    height: 3px; 
+    background-color: #0078ff;
+  
+
+}
+
+
+.brdrshort{
+    width: 50px;
+    height: 5px; 
+    background-color: #0078ff;
+
+    
+
+}
+
+.img-text img{
+
+    width: 40px;
+}
+
+.change-border{
+    border: transparent 0;
+}
+
+#WORK .container .row .col-lg-4 .work-img:hover img{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.work-img{
+ 
+    overflow: hidden;
+}
+.items img{
+    border:0;
+    box-shadow: none;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+.more{
+
+background-image: url(../imgs/bg/counters-bg.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+
+}
+
+
+#testimonial , #Contact{
+
+    background-image: url(../imgs/bg/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+
+
+   .contact-input button{
+    border: none;
+    width: 200px;
+    border-radius: 2rem;
+    background-color: #3393ff;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 24px;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+.contact-info h3{
+    font-size: 30px ;
+    
+}
+.contact-input input{
+    padding: 15px;
+    
+}
+
+.contact-input  button a {
+    color: white;
+    text-decoration: none;}
+
+
+
+    .contact-input .name input{
+        border-radius: 4px;
+         width: 100%;
+         height: 34px;
+         padding: 6px 12px;
+         border: 1px solid #ccc;
+     }
+
+     .contact-input .email input{
+        border-radius: 4px;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+     }
+     .contact-input .subject input{
+        border-radius: 4px;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+     }
+     .contact-input .comment textarea{
+         width:100%;
+         height: 5rem;
+         font-size: 14px;
+         background-color: #fff;
+         border-radius: 4px;
+         padding: 6px 12px;
+         border: 1px solid #ccc;
+     }
+
+
+
+    .card-category {
+        width: 8rem;
+        display: inline-block;
+        color: #fff;
+        padding: 2px 2px;
+        overflow: hidden;
+        background-color: #0078ff;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        top: 55%;
+}
+
+
+.card-blog .card-category .category {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+}
+
+.icon-info i{
+color: #0078ff;
+
+}
+.icon-info p{
+
+    text-indent: 20px;
+
+}
+
+.end{
+    background-color: #0078ff;
+}
